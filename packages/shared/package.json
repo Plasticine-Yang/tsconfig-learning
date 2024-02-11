@@ -1,0 +1,12 @@
+{
+  "name": "shared",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "lint": "eslint src --fix"
+  }
+}
