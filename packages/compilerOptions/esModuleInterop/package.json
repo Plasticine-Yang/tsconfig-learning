@@ -2,7 +2,7 @@
   "name": "es-module-interop",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
+  "type": "commonjs",
   "files": [
     "dist",
     "package.json",
@@ -23,6 +23,6 @@
     "lint": "eslint src --fix"
   },
   "dependencies": {
-    "shared": "workspace:^"
+    "moment": "^2.30.1"
   }
 }
